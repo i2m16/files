@@ -4,8 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNtN6j3K0Th/7b4xqBSlafr",
-      "include_colab_link": true
+      "authorship_tag": "ABX9TyNtN6j3K0Th/7b4xqBSlafr"
     },
     "kernelspec": {
       "name": "python3",
@@ -16,16 +15,6 @@
     }
   },
   "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/i2m16/files/blob/main/InitialALFC01\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
     {
       "cell_type": "code",
       "source": [
