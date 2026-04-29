@@ -1,0 +1,83 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNtN6j3K0Th/7b4xqBSlafr",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/i2m16/files/blob/main/InitialALFC01\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Initial algorithm\n",
+        "# - Start # of protypes = 0\n",
+        "# - Initialized as first feature vector x1 is used as protype of the first cluster\n",
+        "# - Iterate for all K vectors\n",
+        "#   -- normalized i_k vector is compared to all the current normalized protoypes b_j\n",
+        "#   -- using dot product to optaion minimum distance\n",
+        "#   -- Yi = max_j{ik dot bj} 1 <= j <= Q, where Q is all existing nodes\n",
+        "#   -- select winner with input activation Y_i\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "f5nCABOGFhPw"
+      },
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "import math\n",
+        "\n",
+        "vector2d_1 = np.array=([0., 0.])\n",
+        "vector2d_2 = np.array=([2., 2.])\n",
+        "\n",
+        "dot_prod = np.dot(vector2d_1,vector2d_2)\n",
+        "d = math.dist(vector2d_2, vector2d_1)\n",
+        "\n",
+        "print(dot_prod)\n",
+        "print(d)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sRiAxIrXFmJw",
+        "outputId": "8bd37695-e7c2-45a9-8b5f-1ed42874dace"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0.0\n",
+            "2.8284271247461903\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
